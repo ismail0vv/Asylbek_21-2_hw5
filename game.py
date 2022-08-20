@@ -9,7 +9,7 @@ lost = 0
 total = 0
 
 while True:
-    commands = input('Введите слот и ставку или exit для выхода: ').split()
+    commands = input('Введите слот и ставку или exit-almaz для выхода: ').split()
     if commands[0] == 'exit':
         print(f'❤️‍---Программа завершена!---❤️‍\nОставшаяся сумма: {money} Денег потеряно: {lost} Денег заработано: {gain} Разница: {total}')
         break
